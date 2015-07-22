@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav {
+	width: 100%;
+}
+
+.nav ul {
+	width: 25%;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.nav ul li {
+	background-color:#4A4A4A;
+	border-bottom: 1px solid #4E4E4E;
+	text-align: left;
+	width: 80%;
+}
+
+.nav ul li a {
+	padding-left: 2rem;
+	display: block;
+	text-decoration: none;
+	color: #9B9B9B;
+	font-size: 1rem;
+	line-height: 3em;
+}
+
+.nav ul li a:hover {
+	background-color: #595959;
+	width: 100%;
+}
+
+.nav ul li ul {
+	width: 100%;
+}
+
+.nav ul li ul li {
+	width: 100%;
+}
+
+.nav ul li ul li a {
+	display: block;
+	width: 100%;
+	background-color: green;
+	padding-left: 3rem;
+}
+
+.nav ul li ul li a:hover {
+	background-color: red;
+	width: 100%;
+}
