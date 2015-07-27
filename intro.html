@@ -35,7 +35,7 @@
             <div class="nav" role="navigation">
                 <ul>
                     <li>
-                        <a href="intro.html">Introduction</a>
+                        <a href="intro.html" class="current">Introduction</a>
                     </li>
                     <li>
                         <a href="#style">Style</a>
@@ -68,12 +68,19 @@
     <script src="js/main.js"></script>
 
     <div class="column">
-    	<h1>Introduction</h1>
+    	<h1 id="top" class="anchor-offset">Introduction</h1>
     	<p>Our websites are globally connected platforms that showcase the extraordinary events, objects, people and stories that are presented by our world-class institutions.</p>
-    	<h2 id="#goals">Goals</h2>
+
+    	<div class="smooth-scroll">
+    		<a href="#goals" class="page-nav-unit">Goals</a>
+    		<p class="page-nav-unit"> | </p>
+    		<a href="#principles" class="page-nav-unit">Principles</a>
+    	</div>
+
+    	<h2 id="goals" class="anchor-offset">Goals</h2>
     	<p>We aim to serve and delight our diverse online audiences by presenting our expansive and richly varied content in an accessible, flexible and compelling way.</p>
     	
-    	<h2 id="#Principles">Principles</h2>
+    	<h2 id="principles" class="anchor-offset">Principles</h2>
     	<p>The CMH and CWM websites use the same framework. This website design should be informative, easy to use, and fun to explore.</p>
 
     	<div class="tab1">
@@ -97,9 +104,16 @@
 		    		<li>Dynamic elements that respond to user interaction.</li>
 		    		<li>Fresh content that integrates live social media updates.</li>
 		    	</ul>
-
 		</div>
 
+		<div class="smooth-scroll">
+			<a href="#top">Back to top</a>
+		</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.1/jquery.scrollTo.min.js"></script>
+	<script src="js/smooth-scrolling.js"></script>
 
 </body>
 

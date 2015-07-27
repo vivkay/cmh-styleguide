@@ -27,6 +27,10 @@ body {
     background-color: #F8F8F8;
 }
 
+.nav .current {
+	color: white;
+}
+
 a {
 	text-decoration: none;
 }
@@ -101,4 +105,27 @@ li {
 .bold {
 	font-weight: bold;
 	color: #4A4A4A;
+}
+
+/* page-nav is targeted in js for smooth scrolling */
+.smooth-scroll {   
+}
+
+.smooth-scroll a {
+	display: inline-block;
+}
+
+.smooth-scroll p {
+	display: inline-block;
+}
+
+.offset-link {
+	margin-top: -100px;
+	padding-top: 100px;
+}
+
+/* this offset (below) is necessary to counter-act the fixed header bar, which has a height of 80px. Explanation from: http://stackoverflow.com/questions/13555709/how-do-i-offset-where-my-fixed-nav-bar-takes-me;*/ 
+.anchor-offset {
+	padding-top: 80px;
+	margin-top: -80px;
 }
