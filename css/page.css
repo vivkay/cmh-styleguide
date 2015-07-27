@@ -26,3 +26,38 @@ body {
     padding: 0;
     background-color: #F8F8F8;
 }
+
+a {
+	text-decoration: none;
+}
+
+button:focus {
+	outline: none;
+}
+
+.top-bar {
+	z-index: 3;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 80px;
+ 	width: 100%;
+ 	background-color: white;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-family: "Futura", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-color: #4A4A4A;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+.column {
+	margin: 120px 30%;
+}
