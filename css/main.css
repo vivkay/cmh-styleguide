@@ -90,6 +90,34 @@ button:focus {
 }
 
 .curve {
+	position: absolute;
+	top: 0;
+	left: 80%;
+	z-index: 8;
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: black;
+	opacity: 0.5;
+	box-sizing: border-box;
+
+}
+
+.curve:before {
+	content:"";
+	display: block;
+	border-radius: 50%;
+	background: black;
+	opacity: 0.5;
+	top: 0;
+	left: -50vh;
+	position: absolute;
+	width: 100vh;
+	height: 100vh;
+}
+
+/*
+.curve {
 	position: fixed;
 	top: -10%;
 	right: -50%;
@@ -99,6 +127,7 @@ button:focus {
 	background: black;
 	opacity: 0.5;
 }
+*/
 
 /* end: opacity shapes*/
 
