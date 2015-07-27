@@ -86,6 +86,12 @@ li {
 	line-height: 1.5em;
 }
 
+/*This additional '.section-spacing' class is necessary because of the conflict of margines used to offset the anchors ('.anchor-offset'), made necessary due to the fixed header.*/ 
+
+.section-spacing {
+	margin-bottom: 3em;
+}
+
 .column {
 	margin: 140px 20% 140px 25%;
 }
@@ -143,8 +149,97 @@ li {
 	margin-top: -100px;
 }
 
+.img-size {
+	width: 100%;
+}
+
+figure {
+	width: 100%;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+figcaption {
+	padding: 0;
+	text-align: right;
+}
+
+figcaption a {
+	font-size: .75rem;
+	color: gray;
+	font-style: italic;
+}
+
 .pseudo-footer {
 	border-top: 1px solid #E4E4E4;
 	margin-top: 4em;
 	padding-top: 2em;
+}
+
+.colour-container {
+	width: 100%;
+	text-align: left;
+}
+
+.cmh-red {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #EB1829;
+}
+
+.cwm-green {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #049E3C;
+}
+
+.brand-gray {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #8E908F;
+}
+
+.gray2 {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #4A4A4A;
+}
+
+.gray3 {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #D8D8D8;
+}
+
+.gray4 {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #E5E5E5;
+}
+
+.descriptor {
+	display: inline-block;
+	color: blue;
+	bottom: -10px;
+	padding: 1em;
+}
+
+.descriptor p {
+	color: gray;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: .75rem;
 }
