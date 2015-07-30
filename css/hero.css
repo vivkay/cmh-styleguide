@@ -62,8 +62,8 @@ body {
 	top: 0;
 	background-color: black;
 	opacity: .3;
-	height: 100vh;
-	width: 100vw;
+	height: 105%;
+	width: 100%;
 	position: absolute;
 }
 
@@ -122,31 +122,22 @@ body {
 	line-height: 1.25em;
 	padding: 0;
 	margin: 0;
-	-webkit-transform: translateY(10px);
-    transform: translateY(10px);
+	-webkit-transform: translateY(15px);
+    transform: translateY(15px);
     -webkit-animation: bottom-in .5s linear forwards;
     animation: bottom-in .5s linear forwards;
 }
 
-.date {
-	opacity: .8;
-	font-size: 2rem;
-	font-weight: bolder;
-	line-height: 1.25em;
-	padding-left: 2em;
-	padding-top: 1em;
-	margin: 0;
-}
 
 @-webkit-keyframes bottom-in {
 
     0% {
     	opacity: 0;
-        -webkit-transform: translateY(10px);
+        -webkit-transform: translateY(15px);
         }
 
     80% {
-    	opacity: 1;
+    	opacity: .5;
         transform: none;
     }
 
@@ -161,11 +152,11 @@ body {
 
     0% {
     	opacity: 0;
-        transform: translateY(10px);
+        transform: translateY(15px);
         }
 
     80% {
-    	opacity: 1;
+    	opacity: .5;
         transform: none;
     }
 
@@ -174,6 +165,46 @@ body {
         transform: none;
     }
 }
+
+.fade-in {
+	opacity: 0;
+	-webkit-animation: fade-in 1s 1s linear forwards;
+	animation: fade-in 1s 1s linear forwards;
+}
+
+@-webkit-keyframes fade-in {
+
+    0% {
+    	opacity: 0;
+        }
+
+    100% {
+    	opacity: 1;
+    }
+
+}
+
+@keyframes fade-in {
+
+    0% {
+    	opacity: 0;
+        }
+
+    100% {
+    	opacity: 1;
+    }
+}
+
+
+.date {
+	font-size: 2rem;
+	font-weight: bolder;
+	line-height: 1.25em;
+	padding-left: 2em;
+	padding-top: 1em;
+	margin: 0;
+}
+
 
 
 .med-white {
@@ -228,3 +259,33 @@ body {
 	border-right: 20px solid transparent;
 	border-top: 20px solid white;
 }
+
+
+.bounce {
+    -webkit-animation: bounce 1s linear alternate infinite;
+    animation: bounce 1s linear alternate infinite;
+}
+
+@-webkit-keyframes bounce {
+
+    0% {
+        -webkit-transform: translateY(20px)
+    }
+
+    100% {
+        -webkit-transform: translateY(30px)
+    }
+}
+
+@keyframes bounce {
+
+    0% {
+        transform: translateY(20px)
+    }
+
+    100% {
+        transform: translateY(30px)
+    }
+}
+
+
