@@ -27,6 +27,30 @@ body {
     padding: 0;
 }
 
+.grey-hred {
+	color: #8E908F;
+}
+
+.grey-hred:hover {
+	color: #EB1829;
+}
+
+.grey-hgrn {
+	color: #8E908F;
+}
+
+.grey-hgrn:hover {
+	color: #049E3C;
+}
+
+.grey {
+	color: #8E908F;
+}
+
+.grey:hover {
+	color: #EB1829;
+}
+
 /*
 .background-image {
 	max-height: 75vh;

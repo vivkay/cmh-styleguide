@@ -1,4 +1,41 @@
-/* CSS images */
+/*For photographic images placed with the img tag */
+
+.img-example {
+	height: 150px;
+	width: auto;
+}
+
+.img-do {
+	color: green;
+	width: 100%;
+	font-weight: bold;
+	padding: 0;
+	text-align: left;
+	top: 0px;
+	position: relative;
+	display: inline-block;
+}
+
+.side-text {
+	border: 1px solid #4A4A4A;
+	display: inline-block;
+	padding: 1em;
+	float: right;
+	margin-bottom: 2em;
+}
+
+.img-dont {
+	color: red;
+	width: 100%;
+	font-weight: bold;
+	padding: 0;
+	text-align: left;
+	top: 0px;
+	position: relative;
+	display: inline-block;
+}
+
+/* For pure CSS graphics */
 
 .do-dont {
 	display: block;
