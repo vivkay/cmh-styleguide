@@ -1,6 +1,12 @@
 /*For photographic images placed with the img tag */
 
-.img-example {
+.img-example-float {
+	height: 150px;
+	width: auto;
+	float: left;
+}
+
+.img-example-block {
 	height: 150px;
 	width: auto;
 }
@@ -12,16 +18,17 @@
 	padding: 0;
 	text-align: left;
 	top: 0px;
-	position: relative;
 	display: inline-block;
 }
 
 .side-text {
-	border: 1px solid #4A4A4A;
+	border: 1px solid #D8D8D8;
 	display: inline-block;
 	padding: 1em;
 	float: right;
 	margin-bottom: 2em;
+	float: left;
+	height: 150px;
 }
 
 .img-dont {
