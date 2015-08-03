@@ -25,3 +25,56 @@ html {
   }
 
 }
+
+.italic {
+  font-style: italic;
+}
+
+.border-box {
+  padding: 1em;
+  width: 100%;
+  height: auto;
+  border: 1px solid #D8D8D8;
+  background: white;
+}
+
+.border-box-tall {
+  padding: 1em;
+  width: 100%;
+  height: 9em;
+  border: 1px solid #D8D8D8;
+  background: white;
+  overflow: hidden;
+}
+
+.deck {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #4A4A4A;
+}
+
+.body {
+  font-size: .8em;
+  font-weight: normal;
+  line-height: 1.6em;
+}
+
+.bad-lh {
+  width: 50%;
+  padding: 1em;
+  display: inline-block;
+  font-size: .8em;
+  line-height: .8em;
+  float: left;
+}
+
+.good-lh {
+  width: 50%;
+  padding: 1em;
+  display: inline-block;
+  font-size: .8em;
+  line-height: 1.6em;
+  float: right;
+}
+
+
