@@ -97,6 +97,7 @@ li {
 }
 
 .intro {
+	clear: both;
 	border-bottom: 1px solid #E4E4E4;
 	margin-bottom: 2em;
 }

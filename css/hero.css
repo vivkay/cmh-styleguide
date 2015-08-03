@@ -51,18 +51,17 @@ body {
 .hero {
 	display: block;
 	text-align: center;
-	top: 0;
 	width: 100%;
-	margin: 0;
+	margin-bottom: 2em;
 	padding: 0;
+	overflow: hidden;
 }
 
 .opacity {
 	z-index: 3;
-	top: 0;
 	background-color: black;
 	opacity: .3;
-	height: 105%;
+	height: 100%;
 	width: 100%;
 	position: absolute;
 }
@@ -168,8 +167,8 @@ body {
 
 .fade-in {
 	opacity: 0;
-	-webkit-animation: fade-in 1s 1s linear forwards;
-	animation: fade-in 1s 1s linear forwards;
+	-webkit-animation: fade-in 1s linear forwards;
+	animation: fade-in 1s linear forwards;
 }
 
 @-webkit-keyframes fade-in {
@@ -250,7 +249,7 @@ body {
 .arrow-down {
 	opacity: .5;
 	position: absolute;
-	bottom: 1%;
+	bottom: 10%;
 	left: calc(50% - 20px);
 	z-index: 4;
 	width: 0; 
