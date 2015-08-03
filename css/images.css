@@ -1,0 +1,42 @@
+/* CSS images */
+
+.do-dont {
+	display: block;
+	width: 100%;
+	margin-top: 3em;
+	margin-bottom: 1em;
+}
+
+.do {
+	color: green;
+	font-weight: bold;
+	padding: 0;
+	text-align: left;
+	top: -40px;
+	position: relative;
+}
+
+.dont {
+	color: red;
+	font-weight: bold;
+	padding: 0;
+	text-align: left;
+	top: -40px;
+	position: relative;
+}
+
+/* Section: Style, Colour */
+
+.plain-box {
+	background: #8E908F;
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+}
+
+.shadow-box {
+	background-color: #8E908F;
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+}
