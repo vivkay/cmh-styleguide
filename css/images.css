@@ -25,13 +25,14 @@
 	position: relative;
 }
 
-/* Section: Style, Colour */
+/* Section: Style, Intro - Flat Design */
 
 .plain-box {
 	background: #8E908F;
 	height: 150px;
 	width: 150px;
 	display: inline-block;
+	margin-bottom: 2.5em;
 }
 
 .shadow-box {
@@ -39,4 +40,160 @@
 	height: 150px;
 	width: 150px;
 	display: inline-block;
+	box-shadow: 5px 5px 2px #4A4A4A;
+	margin-bottom: 2.5em;
+}
+
+/* Section: Style, Intro - Gradient */
+
+.solid-box {
+	background: #8E908F;
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	margin-bottom: 2.5em;
+}
+
+.gradient-box {
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	  background: -webkit-linear-gradient(#8E908F, #4A4A4A); /* For Safari 5.1 to 6.0 */
+	  background: -o-linear-gradient(#8E908F, #4A4A4A); /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(#8E908F, #4A4A4A); /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(#8E908F, #4A4A4A); /* Standard syntax */
+}
+
+/* Section: Style, Contrast */
+
+.box-outline {
+	background: white;
+	border: 1px solid #8E908F;
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	margin-bottom: 2.5em;
+	text-align: center;
+	position: relative;
+}
+
+.inner-box-red {
+	background: #EB1829;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	right: calc(75px - 25px);
+	top: calc(75px - 25px);
+}
+
+.box-grey {
+	background: #8E908F;
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	margin-bottom: 2.5em;
+	text-align: center;
+	position: relative;
+
+}
+
+.box-grey2 {
+	background: #4A4A4A;
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	margin-bottom: 2.5em;
+	text-align: center;
+	position: relative;
+}
+
+.inner-box-green {
+	background: #049E3C;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	right: calc(75px - 25px);
+	top: calc(75px - 25px);
+}
+
+/* This styles the do and don't for button contrast */
+
+.rectangle-white {
+	background: white;
+	border: 1px solid #E5E5E5;
+	height: 50px;
+	width: 150px;
+	display: inline-block;
+	margin-bottom: 2.5em;
+	text-align: center;
+	position: relative;
+}
+
+.dark-grey-text {
+	color: #4A4A4A;
+	position: absolute;
+	top: 5px;
+	left: calc(75px - 25px);
+}
+
+.rectangle-red {
+	background: #EB1829;
+	border: 1px solid #EB1829;
+	height: 50px;
+	width: 150px;
+	display: inline-block;
+	margin-bottom: 2.5em;
+	text-align: center;
+	position: relative;
+}
+
+.white-text {
+	color: white;
+	position: absolute;
+	top: 5px;
+	left: calc(75px - 25px);
+}
+
+.red-text {
+	color: #EB1829;
+	position: absolute;
+	top: 5px;
+	left: calc(75px - 25px);
+}
+
+.rectangle-green {
+	background: #049E3C;
+	border: 1px solid #049E3C;
+	height: 50px;
+	width: 150px;
+	display: inline-block;
+	margin-bottom: 2.5em;
+	text-align: center;
+	position: relative;
+}
+
+.rectangle-grey {
+	background: #4A4A4A;
+	border: 1px solid #4A4A4A;
+	height: 50px;
+	width: 150px;
+	display: inline-block;
+	margin-bottom: 2.5em;
+	text-align: center;
+	position: relative;
+}
+
+.light-grey-text {
+	color: #D8D8D8;
+	position: absolute;
+	top: 5px;
+	left: calc(75px - 25px);
+}
+
+.dark-grey {
+	color: #4A4A4A;
+}
+
+.brand-grey {
+	color: #8E908F;
 }
