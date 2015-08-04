@@ -43,11 +43,11 @@ body {
 	color: #049E3C;
 }
 
-.grey {
+.grey-link {
 	color: #8E908F;
 }
 
-.grey:hover {
+.grey-link:hover {
 	color: #EB1829;
 }
 

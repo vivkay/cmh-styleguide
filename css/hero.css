@@ -49,6 +49,7 @@ body {
 }
 
 .hero {
+	overflow-x: hidden;
 	display: block;
 	text-align: center;
 	width: 100%;
