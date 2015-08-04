@@ -70,6 +70,17 @@
 	position: relative;
 }
 
+.cb {
+	color: #4A4A4A;
+	font-weight: normal;
+	padding: 0;
+	text-align: left;
+	top: -30px;
+	position: relative;
+	font-size: .65em;
+	font-style: italic;
+}
+
 /* Section: Style, Intro - Flat Design */
 
 .plain-box {
@@ -242,3 +253,22 @@
 .brand-grey {
 	color: #8E908F;
 }
+
+.inner-box-cb1 {
+	background: #4C4F39;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	right: calc(75px - 25px);
+	top: calc(75px - 25px);
+}
+
+.inner-box-cb2 {
+	background: #9C994D;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	right: calc(75px - 25px);
+	top: calc(75px - 25px);
+}
+
