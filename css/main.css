@@ -28,27 +28,27 @@ body {
 }
 
 .grey-hred {
-	color: #8E908F;
+	color: #727474;
 }
 
 .grey-hred:hover {
-	color: #EB1829;
+	color: #E6192B;
 }
 
 .grey-hgrn {
-	color: #8E908F;
+	color: #727474;
 }
 
 .grey-hgrn:hover {
-	color: #049E3C;
+	color: #038834;
 }
 
 .grey-link {
-	color: #8E908F;
+	color: #727474;
 }
 
 .grey-link:hover {
-	color: #EB1829;
+	color: #E6192B;
 }
 
 /*
@@ -299,10 +299,32 @@ button:focus {
     transition: all 1s ease-out;
 }
 
+.nav-btn-resources {
+	display: block;
+	text-decoration: none;
+	color: #9B9B9B;
+	font-size: .75rem;
+	line-height: 3em;
+	padding-left: 1rem;
+	border: none;
+	background: none;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.nav-panel-resources {
+    max-height: 0em;
+    overflow: hidden;
+    transition: all 1s ease-out;
+}
 
 .js-panel-open {
 	display: block;
 	max-height: 20em;
+}
+
+.nav ul li div:hover {
+	color: white;
 }
 
 

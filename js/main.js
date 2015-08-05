@@ -2,6 +2,8 @@ var $navBtnIntro = $('.nav-btn-intro');
 var $navPanelIntro = $('.nav-panel-intro');  
 var $navBtnStyle = $('.nav-btn-style'); 
 var $navPanelStyle = $('.nav-panel-style');
+var $navBtnResources = $('.nav-btn-resources');
+var $navPanelResources = $('.nav-panel-resources');
 
     $('#nav-icon3').click(function(){
         $(this).toggleClass('open');
@@ -15,3 +17,7 @@ var $navPanelStyle = $('.nav-panel-style');
     $navBtnStyle.on('click', function () {
     	$navPanelStyle.toggleClass('js-panel-open');
     });
+
+    $navBtnResources.on('click', function () {
+        $navPanelResources.toggleClass('js-panel-open');
+    })

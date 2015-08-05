@@ -81,3 +81,13 @@ html {
   margin-top: 2em;
   display: block;
 }
+
+.block {
+  display: block;
+}
+
+.sub-text {
+  display: block;
+  font-size: .8em;
+  color: black;
+}

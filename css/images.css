@@ -84,7 +84,7 @@
 /* Section: Style, Intro - Flat Design */
 
 .plain-box {
-	background: #8E908F;
+	background: #727474;
 	height: 150px;
 	width: 150px;
 	display: inline-block;
@@ -92,7 +92,7 @@
 }
 
 .shadow-box {
-	background-color: #8E908F;
+	background-color: #727474;
 	height: 150px;
 	width: 150px;
 	display: inline-block;
@@ -103,7 +103,7 @@
 /* Section: Style, Intro - Gradient */
 
 .solid-box {
-	background: #8E908F;
+	background: #727474;
 	height: 150px;
 	width: 150px;
 	display: inline-block;
@@ -114,17 +114,17 @@
 	height: 150px;
 	width: 150px;
 	display: inline-block;
-	  background: -webkit-linear-gradient(#8E908F, #4A4A4A); /* For Safari 5.1 to 6.0 */
-	  background: -o-linear-gradient(#8E908F, #4A4A4A); /* For Opera 11.1 to 12.0 */
-	  background: -moz-linear-gradient(#8E908F, #4A4A4A); /* For Firefox 3.6 to 15 */
-	  background: linear-gradient(#8E908F, #4A4A4A); /* Standard syntax */
+	  background: -webkit-linear-gradient(#727474, #4A4A4A); /* For Safari 5.1 to 6.0 */
+	  background: -o-linear-gradient(#727474, #4A4A4A); /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(#727474, #4A4A4A); /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(#727474, #4A4A4A); /* Standard syntax */
 }
 
 /* Section: Style, Contrast */
 
 .box-outline {
 	background: white;
-	border: 1px solid #8E908F;
+	border: 1px solid #727474;
 	height: 150px;
 	width: 150px;
 	display: inline-block;
@@ -134,7 +134,7 @@
 }
 
 .inner-box-red {
-	background: #EB1829;
+	background: #E6192B;
 	height: 50px;
 	width: 50px;
 	position: absolute;
@@ -143,7 +143,7 @@
 }
 
 .box-grey {
-	background: #8E908F;
+	background: #727474;
 	height: 150px;
 	width: 150px;
 	display: inline-block;
@@ -164,7 +164,7 @@
 }
 
 .inner-box-green {
-	background: #049E3C;
+	background: #038834;
 	height: 50px;
 	width: 50px;
 	position: absolute;
@@ -193,8 +193,8 @@
 }
 
 .rectangle-red {
-	background: #EB1829;
-	border: 1px solid #EB1829;
+	background: #E6192B;
+	border: 1px solid #E6192B;
 	height: 50px;
 	width: 150px;
 	display: inline-block;
@@ -211,15 +211,15 @@
 }
 
 .red-text {
-	color: #EB1829;
+	color: #E6192B;
 	position: absolute;
 	top: 5px;
 	left: calc(75px - 25px);
 }
 
 .rectangle-green {
-	background: #049E3C;
-	border: 1px solid #049E3C;
+	background: #038834;
+	border: 1px solid #038834;
 	height: 50px;
 	width: 150px;
 	display: inline-block;
@@ -251,7 +251,7 @@
 }
 
 .brand-grey {
-	color: #8E908F;
+	color: #727474;
 }
 
 .inner-box-cb1 {

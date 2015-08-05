@@ -59,9 +59,9 @@
                     <li>
                         <div class="nav-btn-intro">Digital Styleguide</div>
                         <ul class="nav-panel-intro">
-                        <li>
-                            <a href="#intro">Introduction</a>
-                        </li>
+                            <li>
+                                <a href="#intro">Introduction</a>
+                            </li>
                             <li>
                                 <a href="#goals">Goals</a>
                             </li>
@@ -72,24 +72,29 @@
                     </li>
                     <li>
                         <div class="nav-btn-style">Design</div>
-                            <ul class="nav-panel-style">
-                                <li>
-                                    <a href="#style">Style Overview</a>
-                                </li>
-                                <li>
-                                    <a href="#colour">Colour</a>
-                                </li>
-                                <li>
-                                    <a href="#photo">Photography</a>
-                                </li>
-                                <li>
-                                    <a href="#type">Typography</a>
-                                </li>
-                            </ul>
+                        <ul class="nav-panel-style">
+                            <li>
+                                <a href="#style">Style Overview</a>
+                            </li>
+                            <li>
+                                <a href="#colour">Colour</a>
+                            </li>
+                            <li>
+                                <a href="#photo">Photography</a>
+                            </li>
+                            <li>
+                                <a href="#type">Typography</a>
+                            </li>
+                        </ul>
                     </li>
                     <li><a href="#layout">Layout</a></li>
-                    <li><a href="#interactive">Interactivity</a></li>
                     <li><a href="#accessibility">Accessibility</a></li>
+                    <li>
+                        <div class="nav-btn-resources">Resources</div>
+                        <ul class="nav-panel-resources">
+                            <li><a href="#resources">Helpful Links</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <div class="nav-info"> 
@@ -211,24 +216,24 @@
             <p>The digital colour palettes were drawn from the existing branding guidelines, with some minor changes:</p>
             <ul>
                 <li>Additional shades of grey have been added to create a more visually robust and accessible digital aesthetic.</li>
-                <li>The Canadian War Museum green has been modified for screens.</li>
+                <li>The brand grey, as well as the accent colours Red and Green have been modified for AA standard accessibility, using the free <a href ="http://www.paciellogroup.com/resources/contrastanalyser/">Colour Contrast Analyser</a> as a point of reference.</li>
             </ul>
 
             <div class="colour-container">
                 <div class="descriptor">
                     <div class="cmh-red"></div>
                     <p>CMH Red</p>
-                    <p>#EB1829</p>
+                    <p>#E6192B</p>
                 </div>
                 <div class="descriptor">
                     <div class="cwm-green"></div>
                     <p>CWM Green</p>
-                    <p>#049E3C</p>
+                    <p>#038834</p>
                 </div>
                 <div class="descriptor">
                     <div class="brand-gray"></div>
                     <p>Brand Grey</p>
-                    <p>#8E908F</p>
+                    <p>#727474</p>
                 </div>
                 <div class="descriptor">
                     <div class="gray2"></div>
@@ -332,35 +337,57 @@
         
         <section class="section-spacing">
             <h2 id="type" class="anchor-offset">Typography</h2>
-                    <p>Thoughtful typography is critical to creating an accessible and enjoyable user-experience. Key components of typography–hierarchy, contrast, legibility, leading (line-height), contrast, and alignment– are critical in the organization, presentation and prioritization of information.</p>
+            <p>Thoughtful typography is critical to creating an accessible and enjoyable user-experience. Key components of typography–hierarchy, contrast, legibility, leading (line-height), contrast, and alignment– are critical in the organization, presentation and prioritization of information.</p>
+            <div class="tab1">
+                <h3>Digital Fonts</h3>
+                <p>The web fonts for the CMH/CWM brand are Futura (web version) and Arial (web version). These clean, crisp sans-serif fonts offer flexibility through various available web-sizes, and readability.</p>
 
-                <div class="tab1">
-                    <h3>Digital Fonts</h3>
-                    <p>The web fonts for the CMH/CWM brand are Futura (web version) and Arial (web version). These clean, crisp sans-serif fonts offer flexibility through various available web-sizes, and readability.</p>
-
-                    <h3>Intro or Deck</h3>
-                    <p>A deck–also known as an <span class="italic">intro, stand-first</span> or <span class="italic">kicker</span>–is the bridge between the heading and the body copy for a particular article. The deck is usually the introductory paragraph to an article, and can be styled differently to create visual hierarchy and interest.</p>
-                    <ul>
-                        <li>Intro paragraphs are limited to 1 to 2 sentences in length.</li>
-                        <li>Intro paragraph styling includes a larger point size, and optional variant of colour treatment.</li>
-                        <li>If you are supplying text, please provide clearly identified intro text, separated from the body content.</li>
-                    </ul>
-                    <div class="border-box">
-                        <p class="deck">Here's an example of what the <span class="italic">deck</span>, or <span class="italic">intro</span>, could look like – it's a short and sweet start to your content.</p>
-                        <p class="body">This next part, the body copy of your text, continues on logically from your deck. You can think of the deck as a teaser for your content-it gives your reader an idea of what kind of information the remainder of your article or content will include. And this section, your body text, is where you provide more detailed information using text, images, links and so much more.</p>
-                    </div>
-
-                    <h3>Line Height</h3>
-                    <p>The line height, or <span class="italic">leading</span> of your text refers to the amount of spacing between each line. This should be calulated at about one-and-a-half times the size of your text. For example, if your text is set at <span class="italic">1 rem</span>, your line height should be set at <span class="italic">1.5 rem</span>.</p>
-                    <div class="border-box-tall">
-                        <p class="bad-lh">Poor line height causes your text to collapse onto itself and reduces readability. This is not an ideal scenario, and will cause users to abandon your content.</p>
-                        <p class="good-lh">Good line height allows your text room to breathe, and improves readability. For longer articles, it also facilitates your reader's ability to scan content, and find what they are looking for faster.</p>
-                    </div>
-
-
+                <h3>Intro or Deck</h3>
+                <p>A deck–also known as an <span class="italic">intro, stand-first</span> or <span class="italic">kicker</span>–is the bridge between the heading and the body copy for a particular article. The deck is usually the introductory paragraph to an article, and can be styled differently to create visual hierarchy and interest.</p>
+                <ul>
+                    <li>Intro paragraphs are limited to 1 to 2 sentences in length.</li>
+                    <li>Intro paragraph styling includes a larger point size, and optional variant of colour treatment.</li>
+                    <li>If you are supplying text, please provide clearly identified intro text, separated from the body content.</li>
+                </ul>
+                <div class="border-box">
+                    <p class="deck">Here's an example of what the <span class="italic">deck</span>, or <span class="italic">intro</span>, could look like – it's a short and sweet start to your content.</p>
+                    <p class="body">This next part, the body copy of your text, continues on logically from your deck. You can think of the deck as a teaser for your content-it gives your reader an idea of what kind of information the remainder of your article or content will include. And this section, your body text, is where you provide more detailed information using text, images, links and so much more.</p>
                 </div>
 
-            </section>
+                <h3>Line Height</h3>
+                <p>The line height, or <span class="italic">leading</span> of your text refers to the amount of spacing between each line. This should be calulated at about one-and-a-half times the size of your text. For example, if your text is set at <span class="italic">1 rem</span>, your line height should be set at <span class="italic">1.5 rem</span>.</p>
+                <div class="border-box-tall">
+                    <p class="bad-lh">Poor line height causes your text to collapse onto itself and reduces readability. This is not an ideal scenario, and will cause users to abandon your content.</p>
+                    <p class="good-lh">Good line height allows your text room to breathe, and improves readability. For longer articles, it also facilitates your reader's ability to scan content, and find what they are looking for faster.</p>
+                </div>
+            </div>
+        </section>
+
+<!--SECTION: Resources-->
+        <div class="intro">
+            <h1 id="resources" class="anchor-offset">Helpful Links</h1>
+            <p>Quick links to helpful resources, referenced throughout this document.</p>
+            <ul>
+                <li><a class="grey-link block" href="pdf/brand-guide.pdf">Graphic Standards Styleguide</a>
+                    <p class="sub-text">A PDF of our corporate branding and design guideline.</p>
+                </li>
+                <li><a class="grey-link" href="http://www.w3.org/WAI/intro/wcag">WCAG Accessibility Standards</a>
+                    <p class="sub-text">The international W3C standard for web accessibility.</p>
+                </li>
+                <li><a class="grey-link" href="http://webaim.org/standards/wcag/checklist">Web Aim's WCAG Accessibility Overview</a>
+                    <p class="sub-text">A helpful introduction to, and overview of, WCAG standards.</p>
+                </li>
+                <li><a class="grey-link" href="http://colororacle.org/">Colour Oracle</a>
+                    <p class="sub-text">A free colour blindness simulator for Windows, Mac and Linux</p>
+                </li>
+                <li><a class="grey-link" href="http://www.paciellogroup.com/resources/contrastanalyser/">Colour Contrast Checker</a>
+                    <p class="sub-text">A free tool that provides a pass/fail assessment against WCAG 2.0 colour contrast criteria.</p>
+                </li>
+                <li><a class="grey-link" href="http://www.historymuseum.ca/styleguide/00%20FRONT_web.htm">Internal Branding Guidelines (access through the MyMuseum portal)</a>
+                    <p class="sub-text">Our internal standards and guidelines for the preparation of all public written texts.</p>
+                </li>
+            </ul>
+        </section>  
 
  </body>   
 
